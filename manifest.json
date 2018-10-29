@@ -1,0 +1,18 @@
+{
+    "manifest_version" : 2,
+
+    "name"             : "LMNGTFY",
+    "description"      : "Redirecting LMGTFY searches to acutal Google searches",
+    "version"          : "1.0",
+
+    "permissions" : [
+        "webRequest",
+        "webRequestBlocking",
+        "*://lmgtfy.com/*",
+        "*://www.lmgtfy.com/*"
+    ],
+
+    "background" : {
+        "scripts" : ["background.js"]
+    }
+}
